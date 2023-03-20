@@ -2,6 +2,7 @@
 {
     public interface IEmployee_Repository
     {
-        Employee getName(int id);
+        ResponseEmployeeRepository getName(int id);
+        List<Employee> getEmployees();
     }
 }

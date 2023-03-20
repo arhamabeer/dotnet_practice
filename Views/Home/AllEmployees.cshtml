@@ -1,0 +1,40 @@
+﻿@model List<dotnet_mvc.Models.Employee>
+
+
+<html>
+<head>
+    <title>All Employees</title>
+</head>
+<body>
+    <div>
+        <div>
+            All Employees
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Email</td>
+                        <td>Department</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                foreach(var item in Model)
+                {
+                    <tr>
+                         <td>@item.id</td>
+                         <td>@item.name</td>
+                         <td>@item.email</td>
+                         <td>@item.department</td>
+                    </tr>
+                }
+            }
+                </tbody>
+            </table>            
+        </div>
+    </div>
+</body>
+</html>
