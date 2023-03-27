@@ -1,11 +1,6 @@
-﻿@model List<dotnet_mvc.Models.Employee>
+﻿@model List<Employee>
 
-
-<html>
-<head>
-    <title>All Employees</title>
-</head>
-<body>
+@*
     <div>
         <div>
             All Employees
@@ -36,5 +31,31 @@
             </table>            
         </div>
     </div>
-</body>
-</html>
+*@
+<div>
+    <div>
+        All Employees
+    </div>
+
+@{
+    foreach(var emp in Model)
+    {
+         <div class="card" style="width: 18rem;">
+    <h4 class="card-title">@emp.name</h4>
+
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+                <h5 class="card-text">id: @emp.id</h5>
+                <h5 class="card-text">email: @emp.email</h5>
+                <h5 class="card-text">department: @emp.department</h5>
+
+                    <a asp-controller="home" asp-action="details" asp-route-id="@emp.id" class="btn btn-primary">View</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+
+  </div>
+</div>
+        
+    }
+}
+</div>
+  

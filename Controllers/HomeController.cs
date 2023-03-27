@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace dotnet_mvc.Controllers
 {
+
     public class HomeController : Controller
     {
         private readonly IEmployee_Repository _employee_repo;
@@ -28,9 +29,13 @@ namespace dotnet_mvc.Controllers
                 return data.message;
             }
         }
-        public ViewResult Details()
+
+        public ViewResult Details(int? id)
         {
-            ResponseEmployeeRepository data = _employee_repo.getName(1);
+            Console.WriteLine("_ID CHECK => " + id);
+            ResponseEmployeeRepository data = _employee_repo.getName(id??1);
+            Console.WriteLine("Data CHECK => " + data);
+
             HomeDetailsViewModel hdvm = new HomeDetailsViewModel()
             {
                 Title = "Employee Details",
