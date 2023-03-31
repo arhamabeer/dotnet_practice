@@ -60,5 +60,20 @@ namespace dotnet_mvc.Controllers
             var data = _employee_repo.getEmployees();
             return View(data);
         }
+
+        [HttpGet]
+        public ViewResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Employee employee)
+        {
+            if (ModelState.IsValid) { 
+                Employee newEmp = _employee_repo.AddNewEmpoyee(employee);
+                return RedirectToAction("Details", new {id = newEmp.id});
+            }
+            return View();
+        }
     }
 }

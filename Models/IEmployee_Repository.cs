@@ -4,5 +4,6 @@
     {
         ResponseEmployeeRepository getName(int id);
         List<Employee> getEmployees();
+        Employee AddNewEmpoyee (Employee employee);
     }
 }

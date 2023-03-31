@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X5hj4woEKBd+fhlQajXdcTYE9AHRSuWFzpau/Y0a0Ik=",
+  "Hash": "GOibahjhc72X4YeKGHjVTCXhNk12nEYHboU/PqfoUok=",
   "Source": "dotnet_mvc",
   "BasePath": "_content/dotnet_mvc",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\dp.jpg",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/dp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dp.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\js\\site.js",

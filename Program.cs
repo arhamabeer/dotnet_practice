@@ -22,7 +22,15 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 // MVC SERVICE
-app.UseMvcWithDefaultRoute();
+
+//app.UseMvcWithDefaultRoute();
+app.UseMvc(route =>
+{
+    route.MapRoute(
+        "default",
+        "{controller=Home}/{action=AllEmployees}/{id?}"
+    );
+});
 
 app.UseRouting();
 
@@ -30,8 +38,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=AllEmployees}/{id?}");
 
 app.Run();
