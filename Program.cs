@@ -4,6 +4,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+// DB CONNECTION
+builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("server=(localdb)\\MSSQLLocalDB;database=EmployeeDB;Trusted_Connection=true")));
 //builder.Services.AddMvc();
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
 builder.Services.AddSingleton<IEmployee_Repository, MockEmployeeRepository>();
