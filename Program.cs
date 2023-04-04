@@ -8,7 +8,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContextPool<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("server=(localdb)\\MSSQLLocalDB;database=EmployeeDB;Trusted_Connection=true")));
 //builder.Services.AddMvc();
 builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
-builder.Services.AddSingleton<IEmployee_Repository, MockEmployeeRepository>();
+builder.Services.AddSingleton<IEmployee_Repository, SqlEmployeeRepository>(); // SQL
+//builder.Services.AddSingleton<IEmployee_Repository, MockEmployeeRepository>();  // in-memory(local memory)
 
 var app = builder.Build();
 

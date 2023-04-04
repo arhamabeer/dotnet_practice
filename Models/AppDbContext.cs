@@ -8,6 +8,6 @@ namespace dotnet_mvc.Models
         {   
         }
 
-        public DbSet<Employee> _dbEmployee { get; set; }
+        public DbSet<Employee> Employees { get; set; }
     }
 }

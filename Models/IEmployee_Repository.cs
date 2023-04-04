@@ -5,5 +5,7 @@
         ResponseEmployeeRepository getName(int id);
         List<Employee> getEmployees();
         Employee AddNewEmpoyee (Employee employee);
+        Employee UpdateEmplyee (Employee employee);
+        Employee DeleteEmplyee (int id);
     }
 }

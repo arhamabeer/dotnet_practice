@@ -56,5 +56,29 @@ namespace dotnet_mvc.Models
             _employees.Add(employee);
             return employee;
         }
+
+        public Employee UpdateEmplyee(Employee employee)
+        {
+            Employee currEmp = _employees.FirstOrDefault(e => employee.id == e.id);
+            if(currEmp != null)
+            {
+            currEmp.email = employee.email;
+            currEmp.name = employee.name;
+            currEmp.department = employee.department;
+            }
+            return currEmp;
+
+
+        }
+
+        public Employee DeleteEmplyee(int id)
+        {
+            Employee employee = _employees.FirstOrDefault(e => e.id == id);
+            if(employee != null)
+            {
+                _employees.Remove(employee);
+            }
+            return employee;
+        }
     }
 }
