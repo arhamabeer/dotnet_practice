@@ -26,9 +26,15 @@
             return _emp;
         }
 
+        //public IEnumerable<Employee> getEmployees()
+        //{
+        //    throw new NotImplementedException();
+        //}
+
         public List<Employee> getEmployees()
         {
-            return context.Employees;
+            return context.Employees.ToList();
+
         }
 
         public ResponseEmployeeRepository getName(int id)
@@ -49,7 +55,9 @@
         public Employee UpdateEmplyee(Employee employee)
         {
             var _emp = context.Employees.Attach(employee);
-            context.
+            _emp.State = EntityState.Modified;
+            context.SaveChanges();
+            return employee;
         }
     }
 }
