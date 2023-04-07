@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\1752804d-233b-4601-9e28-e20dee3bb2be_braincrop_logo.png",
+      "PackagePath": "staticwebassets\\images\\1752804d-233b-4601-9e28-e20dee3bb2be_braincrop_logo.png"
+    },
+    {
       "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\dp.jpg",
       "PackagePath": "staticwebassets\\images\\dp.jpg"
     },

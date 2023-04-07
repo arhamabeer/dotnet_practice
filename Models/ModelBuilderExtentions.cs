@@ -11,20 +11,23 @@
                    department = Dept.IT,
                    email = "arham@gmail.com",
                    id = 1,
+                   photoPath = null
                },
                  new Employee
                  {
                      name = "Abeer",
                      department = Dept.Design,
                      email = "arham@abeer.com",
-                     id = 1,
+                     photoPath = null,
+                     id = 2,
                  },
                    new Employee
                    {
                        name = "Ahmed",
                        department = Dept.None,
                        email = "ahmed@aaa.com",
-                       id = 1,
+                       photoPath = null,
+                       id = 3,
                    }
                );
         }

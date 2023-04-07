@@ -1,37 +1,5 @@
 ﻿@model List<Employee>
 
-@*
-    <div>
-        <div>
-            All Employees
-        </div>
-        <div>
-            <table>
-                <thead>
-                    <tr>
-                        <td>ID</td>
-                        <td>Name</td>
-                        <td>Email</td>
-                        <td>Department</td>
-                    </tr>
-                </thead>
-                <tbody>
-                    @{
-                foreach(var item in Model)
-                {
-                    <tr>
-                         <td>@item.id</td>
-                         <td>@item.name</td>
-                         <td>@item.email</td>
-                         <td>@item.department</td>
-                    </tr>
-                }
-            }
-                </tbody>
-            </table>            
-        </div>
-    </div>
-*@
 <div>
     <div>
         <h1>
@@ -40,15 +8,17 @@
         </h1>
     </div>
 
-    <div class="flex-row flex-wrap">
+    <div class="flex-wrap d-flex">
 
 @{
     foreach(var emp in Model)
     {
-         <div class="card m-2" style="width: 18rem;">
+    var _photo = "~/images/" + (emp.photoPath ?? "/dp.jpg");
+     
+    <div class="card m-2" style="width: 18rem;">
     <h4 class="card-title">@emp.name</h4>
 
-                <img src="~/images/dp.jpg" class="card-img-top" alt="..." asp-append-version="true">
+            <img src="@_photo" class="card-img-top employee-card-img" alt="..." asp-append-version="true">
             <div class="card-body">
                 <h5 class="card-text">id: @emp.id</h5>
                 <h5 class="card-text">email: @emp.email</h5>

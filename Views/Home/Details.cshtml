@@ -1,32 +1,12 @@
 ﻿@model HomeDetailsViewModel
-
-
-@*
-    <div>
-         <div>
-                @Model.Title
-        </div>
-        <div>
-            <div>
-                Name: @Model.data.name
-            </div>
-        </div>
-        <div>
-            <div>
-                Email: @Model.data.email
-            </div>
-        </div>
-        <div>
-            <div>
-                Department: @Model.data.department
-            </div>
-        </div>
-    </div>*@
+@{
+    var _photo = "~/images/" + (Model.data.photoPath ?? "/dp.jpg");
+}
 
     <div class="card" style="width: 18rem;">
     <h4 class="card-title">@Model.data.name</h4>
 
-  <img src="~/images/dp.jpg" class="card-img-top" alt="..." asp-append-version="true">
+    <img src="@_photo" class="card-img-top employee-card-img" alt="..." asp-append-version="true">
   <div class="card-body">
         <h5 class="card-text">id: @Model.data.id</h5>
         <h5 class="card-text">email: @Model.data.email</h5>
