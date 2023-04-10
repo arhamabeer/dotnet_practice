@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nU4mp/PkuImWUliPqdRP+GbYl2kM6yKu13C+dxnPCOVqeOuUo21Lzqz5fCfpmATWuhzbKpdRdIHO4nvyA8xRdA==",
+  "dgSpecHash": "iHA1MWpJSR5DLYVNpBM8mtcHXZvCKrWWT0UMnuKRZ0JDGQYtFpxm3diTSiC0lb7rxtSkajnRsnnTDp75hcCsfA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj",
+  "projectFilePath": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arham\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\arham\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",
@@ -150,13 +150,5 @@
     "C:\\Users\\arham\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\arham\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU3037",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Threading.Tasks 4.0.11' from source 'C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\': The repository primary signature validity period has expired.",
-      "libraryId": "System.Threading.Tasks"
-    }
-  ]
+  "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj": {}
+    "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj": {
+    "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj",
+        "projectUniqueName": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj",
         "projectName": "dotnet_mvc",
-        "projectPath": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj",
+        "projectPath": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj",
         "packagesPath": "C:\\Users\\arham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\obj\\",
+        "outputPath": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arham\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -9073,11 +9073,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj",
+      "projectUniqueName": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj",
       "projectName": "dotnet_mvc",
-      "projectPath": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\dotnet_mvc.csproj",
+      "projectPath": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\dotnet_mvc.csproj",
       "packagesPath": "C:\\Users\\arham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arham\\source\\repos\\dotnet_practice\\obj\\",
+      "outputPath": "C:\\Users\\arham\\Source\\Repos\\dotnet_practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9133,14 +9133,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3037",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Threading.Tasks 4.0.11' from source 'C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\': The repository primary signature validity period has expired.",
-      "libraryId": "System.Threading.Tasks"
-    }
-  ]
+  }
 }
