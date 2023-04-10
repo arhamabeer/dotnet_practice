@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.btn{
+    width: 75px;
+}
+
+.employee-card-img{
+    width: auto;
+    height: 150px;
+}

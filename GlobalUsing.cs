@@ -11,3 +11,6 @@ global using System.Threading;
 global using System.Net.Http;
 global using System.Threading.Tasks;
 global using dotnet_mvc.Models;
+global using System.ComponentModel.DataAnnotations;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Hosting;

@@ -23,9 +23,9 @@ namespace dotnet_mvc.Models
         {
             _employees = new List<Employee>()
             {
-                new Employee(){id = 1, name = "Arham", email = "arham@gmail.com", department = "SE"},
-                new Employee(){id = 2, name = "Abeer", email = "abeer@gmail.com", department = "CS"},
-                new Employee(){id = 3, name = "Ahmed", email = "aaa@gmail.com", department = "SE"},
+                new Employee(){id = 1, name = "Arham", email = "arham@gmail.com", department = Dept.IT},
+                new Employee(){id = 2, name = "Abeer", email = "abeer@gmail.com", department = Dept.Admin},
+                new Employee(){id = 3, name = "Ahmed", email = "aaa@gmail.com", department =   Dept.Design},
             };
         }
         public ResponseEmployeeRepository getName(int id)
@@ -48,6 +48,37 @@ namespace dotnet_mvc.Models
 
         public List<Employee> getEmployees() { 
             return _employees;
+        }
+
+        public Employee AddNewEmpoyee(Employee employee)
+        {
+            employee.id = _employees.Max(id => id.id) + 1;
+            _employees.Add(employee);
+            return employee;
+        }
+
+        public Employee UpdateEmplyee(Employee employee)
+        {
+            Employee currEmp = _employees.FirstOrDefault(e => employee.id == e.id);
+            if(currEmp != null)
+            {
+            currEmp.email = employee.email;
+            currEmp.name = employee.name;
+            currEmp.department = employee.department;
+            }
+            return currEmp;
+
+
+        }
+
+        public Employee DeleteEmplyee(int id)
+        {
+            Employee employee = _employees.FirstOrDefault(e => e.id == id);
+            if(employee != null)
+            {
+                _employees.Remove(employee);
+            }
+            return employee;
         }
     }
 }
