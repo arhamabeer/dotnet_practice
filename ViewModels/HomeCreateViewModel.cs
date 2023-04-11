@@ -12,7 +12,7 @@
         public string email { get; set; }
         [Required]
         public Dept? department { get; set; }
-        public IFormFile photo { get; set; }
+        public IFormFile? photo { get; set; }
 
     }
 }

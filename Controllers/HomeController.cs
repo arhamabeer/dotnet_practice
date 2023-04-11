@@ -74,14 +74,7 @@ namespace dotnet_mvc.Controllers
             if (ModelState.IsValid) {
 
                 Console.WriteLine("CREATE DATA --- " + emp_model.photo);
-                string photoName = null;
-                if(emp_model.photo != null)
-                {
-                    string uploadFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
-                    photoName = Guid.NewGuid().ToString() + "_" + emp_model.photo.FileName;
-                    string photoLocation = Path.Combine(uploadFolder, photoName);
-                    emp_model.photo.CopyTo(new FileStream(photoLocation, FileMode.Create));
-                }
+                string photoName = photoUploader(emp_model);
                 Employee newEmp = new Employee
                 {
                     name = emp_model.name,
@@ -96,6 +89,66 @@ namespace dotnet_mvc.Controllers
                 return RedirectToAction("Details", new {id = newEmp.id});
             }
             return View();
+        }
+
+        [HttpGet]
+        public ViewResult Edit(int id)
+        {
+            ResponseEmployeeRepository _emp = _employee_repo.getName(id);
+            HomeEditViewModel homeEditViewModel = new HomeEditViewModel
+            {
+                id = _emp.employee.id,
+                name = _emp.employee.name,
+                department = _emp.employee.department,
+                email = _emp.employee.email,
+                existingPhoto = _emp.employee.photoPath
+            };
+            Console.WriteLine("PHOTP CHECK => " + homeEditViewModel.existingPhoto);
+
+            if (_emp.isFind)
+            {
+                return View(homeEditViewModel);
+            }
+            else
+            {
+                return View(_emp.message);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Edit(HomeEditViewModel emp_model)
+        {
+
+            if (ModelState.IsValid)
+            {
+                ResponseEmployeeRepository _emp = _employee_repo.getName(emp_model.id);
+                _emp.employee.name = emp_model.name;
+                _emp.employee.department = emp_model.department;
+                _emp.employee.email = emp_model.email;
+                
+                if(emp_model.photo != null)
+                {
+                    _emp.employee.photoPath = photoUploader(emp_model);
+                }
+
+                _employee_repo.UpdateEmplyee(_emp.employee);
+
+                return RedirectToAction("allEmployees");
+            }
+            return View();
+        }
+
+        private string photoUploader(HomeCreateViewModel emp_model)
+        {
+            string photoName = null;
+            if(emp_model.photo != null)
+            {
+            string uploadFolder = Path.Combine(hostingEnvironment.WebRootPath, "images");
+            photoName = Guid.NewGuid().ToString() + "_" + emp_model.photo.FileName;
+            string photoLocation = Path.Combine(uploadFolder, photoName);
+            emp_model.photo.CopyTo(new FileStream(photoLocation, FileMode.Create));
+            }
+            return photoName;
         }
     }
 }

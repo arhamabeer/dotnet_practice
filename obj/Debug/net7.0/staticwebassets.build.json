@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "duiWuC8BXDwToUSVtnAwOyRXzwkvLljg/vcZcjhY/QY=",
+  "Hash": "n6QbfJ6aeqNEB+OY50Afbn5l9zAZtvZlEPEU8fkR2Qg=",
   "Source": "dotnet_mvc",
   "BasePath": "_content/dotnet_mvc",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\1752804d-233b-4601-9e28-e20dee3bb2be_braincrop_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\5164f719-b3de-4b18-b00c-d0905d90a945_Fridge-Left_side-960x1080-1-711x800.png",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/5164f719-b3de-4b18-b00c-d0905d90a945_Fridge-Left_side-960x1080-1-711x800.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5164f719-b3de-4b18-b00c-d0905d90a945_Fridge-Left_side-960x1080-1-711x800.png"
     },
     {
       "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\dp.jpg",
