@@ -1,7 +1,9 @@
 ﻿@model HomeEditViewModel
 @{
     ViewBag.Title = "Update Employee";
-    var _emp_photo = "~/images/" + (Model.existingPhoto ?? "dp.jpg");
+    var _emp_photo = "/images/" + (Model.existingPhoto ?? "egg.jpg");
+    //var _emp_photo = "~/images/dp.jpg";
+    Console.WriteLine("EDIT_VIEW =>" + Model.existingPhoto);
 }
 
 <h1>Update Employee</h1>
@@ -42,7 +44,7 @@
         </div>
     </div>
     <div>
-        <img src="@_emp_photo" width="400px" height="200px" asp-append-version="true" />
+        <img src="@_emp_photo" width="400px" height="200px" />
     </div>
 
     <div class="form-group row m-2" class="text-danger" asp-validation-summary="All"></div>

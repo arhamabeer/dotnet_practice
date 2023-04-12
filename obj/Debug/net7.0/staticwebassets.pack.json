@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\images\\1752804d-233b-4601-9e28-e20dee3bb2be_braincrop_logo.png"
     },
     {
+      "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\326d8c8d-01b9-48c7-8515-8ca104f6327d_Royal-Blue-Belt-Clip-Carabiner-ID-Card-Holder-Badge-Reel.jpg",
+      "PackagePath": "staticwebassets\\images\\326d8c8d-01b9-48c7-8515-8ca104f6327d_Royal-Blue-Belt-Clip-Carabiner-ID-Card-Holder-Badge-Reel.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png",
       "PackagePath": "staticwebassets\\images\\3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png"
     },
@@ -25,8 +29,20 @@
       "PackagePath": "staticwebassets\\images\\5164f719-b3de-4b18-b00c-d0905d90a945_Fridge-Left_side-960x1080-1-711x800.png"
     },
     {
+      "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\5c817c48-b497-4927-b293-49f44d119de7_bg-elec1.jpg",
+      "PackagePath": "staticwebassets\\images\\5c817c48-b497-4927-b293-49f44d119de7_bg-elec1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\6af13a18-7417-421f-9c4a-aeee942b2cc0_egg.jpg",
+      "PackagePath": "staticwebassets\\images\\6af13a18-7417-421f-9c4a-aeee942b2cc0_egg.jpg"
+    },
+    {
       "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\dp.jpg",
       "PackagePath": "staticwebassets\\images\\dp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\egg.jpg",
+      "PackagePath": "staticwebassets\\images\\egg.jpg"
     },
     {
       "Id": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\js\\site.js",

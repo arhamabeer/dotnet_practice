@@ -3,6 +3,6 @@
     public class HomeEditViewModel : HomeCreateViewModel
     {
         public int id{ get; set; }
-        public string existingPhoto { get; set; }
+        public string? existingPhoto { get; set; }
     }
 }

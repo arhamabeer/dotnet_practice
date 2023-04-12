@@ -34,6 +34,8 @@ namespace dotnet_mvc.Controllers
 
         public ViewResult Details(int? id)
         {
+
+            throw new Exception("AVEIN KA EXCEPTION IN DETAIL ACTION xD !!!");
             Console.WriteLine("_ID CHECK => " + id);
             ResponseEmployeeRepository data = _employee_repo.getName(id??1);
             Console.WriteLine("Data CHECK => " + data?.employee?.name);
@@ -53,7 +55,8 @@ namespace dotnet_mvc.Controllers
             }
             else
             {
-                return View(data.message);
+                Response.StatusCode = 404;
+                return View("Error404", id);
             }
         }
 
@@ -102,6 +105,8 @@ namespace dotnet_mvc.Controllers
                 department = _emp.employee.department,
                 email = _emp.employee.email,
                 existingPhoto = _emp.employee.photoPath
+                //existingPhoto = _emp.employee.photoPath ?? Path.Combine(hostingEnvironment.WebRootPath, "images\\dp.jpg")
+
             };
             Console.WriteLine("PHOTP CHECK => " + homeEditViewModel.existingPhoto);
 

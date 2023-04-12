@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n6QbfJ6aeqNEB+OY50Afbn5l9zAZtvZlEPEU8fkR2Qg=",
+  "Hash": "SLxr7E+aM3peJAnis2dy5v6qxVvwn6MWWcrxQMIatNI=",
   "Source": "dotnet_mvc",
   "BasePath": "_content/dotnet_mvc",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\images\\1752804d-233b-4601-9e28-e20dee3bb2be_braincrop_logo.png"
     },
     {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\326d8c8d-01b9-48c7-8515-8ca104f6327d_Royal-Blue-Belt-Clip-Carabiner-ID-Card-Holder-Badge-Reel.jpg",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/326d8c8d-01b9-48c7-8515-8ca104f6327d_Royal-Blue-Belt-Clip-Carabiner-ID-Card-Holder-Badge-Reel.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\326d8c8d-01b9-48c7-8515-8ca104f6327d_Royal-Blue-Belt-Clip-Carabiner-ID-Card-Holder-Badge-Reel.jpg"
+    },
+    {
       "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\3f30183d-cebd-48dc-83ed-1371cf54dedd_Group(1).png",
       "SourceId": "dotnet_mvc",
       "SourceType": "Discovered",
@@ -136,6 +153,40 @@
       "OriginalItemSpec": "wwwroot\\images\\5164f719-b3de-4b18-b00c-d0905d90a945_Fridge-Left_side-960x1080-1-711x800.png"
     },
     {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\5c817c48-b497-4927-b293-49f44d119de7_bg-elec1.jpg",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/5c817c48-b497-4927-b293-49f44d119de7_bg-elec1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5c817c48-b497-4927-b293-49f44d119de7_bg-elec1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\6af13a18-7417-421f-9c4a-aeee942b2cc0_egg.jpg",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/6af13a18-7417-421f-9c4a-aeee942b2cc0_egg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6af13a18-7417-421f-9c4a-aeee942b2cc0_egg.jpg"
+    },
+    {
       "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\dp.jpg",
       "SourceId": "dotnet_mvc",
       "SourceType": "Discovered",
@@ -151,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\dp.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\images\\egg.jpg",
+      "SourceId": "dotnet_mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\",
+      "BasePath": "_content/dotnet_mvc",
+      "RelativePath": "images/egg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\egg.jpg"
     },
     {
       "Identity": "C:\\Users\\DELL\\source\\repos\\dotnet_mvc\\dotnet_mvc\\wwwroot\\js\\site.js",
